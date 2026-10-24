@@ -3,7 +3,7 @@
 - **Auditor**: Forensic Auditor (`auditor_1`)
 - **Recipient**: Orchestrator (Parent Agent: `078608ad-aa6c-458a-875b-2187c76d3e60`)
 - **Working Directory**: `/Users/sooyeol/Desktop/Code/ws_noah/.agents/teamwork/auditor_1/`
-- **Target Work Product**: Noah Park 포트폴리오 웹사이트 (14개 케이스 스터디 HTML, 에셋 69개, 검증 스크립트, 디자인 시스템)
+- **Target Work Product**: Noah 포트폴리오 웹사이트 (14개 케이스 스터디 HTML, 에셋 69개, 검증 스크립트, 디자인 시스템)
 - **Profile**: General Project
 - **Audit Verdict**: **CLEAN (무결점 무조작 정품 구현)**
 

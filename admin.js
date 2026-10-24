@@ -3,7 +3,7 @@
  * 
  * 💡 비밀번호 입력 숨김 트리거:
  * 1. 키보드로 화면 어디서든 '1234' 타이핑
- * 2. 상단 헤더 이름 'Noah Park' 더블클릭
+ * 2. 상단 헤더 이름 'Noah' 더블클릭
  * 3. 하단 푸터 끝 마침표(.) 클릭
  * 
  * 💡 비밀번호 인증 후:
@@ -332,7 +332,7 @@
       }
     });
 
-    // 4. 히든 클릭 트리거 1: 헤더 이름 'Noah Park' 더블클릭!
+    // 4. 히든 클릭 트리거 1: 헤더 이름 'Noah' 더블클릭!
     const nameEl = document.querySelector('.site-header .name');
     if (nameEl) {
       nameEl.addEventListener('dblclick', (e) => {

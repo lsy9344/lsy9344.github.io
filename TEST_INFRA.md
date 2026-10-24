@@ -1,6 +1,6 @@
 # 🧪 E2E 테스트 아키텍처 및 검증 인프라 명세서 (TEST_INFRA.md)
 
-> 이 문서는 **Noah Park 포트폴리오 웹사이트**의 14개 실전 프로젝트 케이스 스터디 및 메인 페이지에 대한 **E2E(End-to-End) 검증 및 테스트 인프라 아키텍처**를 정의한 엔지니어링 가이드입니다.
+> 이 문서는 **Noah 포트폴리오 웹사이트**의 14개 실전 프로젝트 케이스 스터디 및 메인 페이지에 대한 **E2E(End-to-End) 검증 및 테스트 인프라 아키텍처**를 정의한 엔지니어링 가이드입니다.
 > 
 > 초보 개발자도 테스트 피라미드의 개념과 링크 무결성(404 에러 방지), 시맨틱 웹 표준 검증 원리를 쉽게 이해하고 실무에 적용할 수 있도록 단계별로 설명합니다.
 
@@ -96,7 +96,7 @@ python3 scripts/verify_portfolio.py --all --json test_results.json
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>[프로젝트 명] — Noah Park</title>
+  <title>[프로젝트 명] — Noah</title>
   <meta name="description" content="[프로젝트 요약]">
   <link rel="stylesheet" href="../style.css">
   <script src="../theme.js"></script> <!-- 반드시 head 내부 위치 (FOUC 방지) -->

@@ -1,4 +1,4 @@
-# Project: Noah Park Portfolio — 14 Real Projects Case Studies
+# Project: Noah Portfolio — 14 Real Projects Case Studies
 
 ## Architecture
 - **Framework & Foundation**: Pure Semantic HTML5, Vanilla CSS Variables (`style.css`), Zero-Dependency JavaScript (`theme.js`), Pure Python Verification (`scripts/verify_portfolio.py`).

@@ -2,7 +2,7 @@
 
 - **작성일**: 2026-10-22
 - **작성자**: E2E Verification Architect & Spec Miner (`explorer_survey_test`)
-- **대상 프로젝트**: Noah Park 미니멀 포트폴리오 웹사이트 (14개 실전 프로젝트 케이스 스터디)
+- **대상 프로젝트**: Noah 미니멀 포트폴리오 웹사이트 (14개 실전 프로젝트 케이스 스터디)
 - **참조 명세**: `ORIGINAL_REQUEST.md`, `DESIGN.md`, `temp_portfolio-craft` 스킬
 
 ---

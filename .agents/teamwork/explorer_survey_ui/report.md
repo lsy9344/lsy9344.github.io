@@ -37,7 +37,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>뷰티 브랜드 고객 관리·캠페인 준비 CRM — Noah Park</title>
+  <title>뷰티 브랜드 고객 관리·캠페인 준비 CRM — Noah</title>
   <meta name="description" content="실측 구매 기록과 AI 재구매 예측을 분리하고, 5단계 안전 관문으로 발송을 제어하는 고객 관리 SaaS 개발기.">
   <!-- 상위 폴더(루트)의 스타일시트와 테마 스크립트를 참조하므로 반드시 '../' 상대 경로 유지 -->
   <link rel="stylesheet" href="../style.css">
@@ -48,7 +48,7 @@
   <!-- 상단 사이트 헤더: 메인 홈의 헤더와 통일된 네비게이션 제공 -->
   <header class="site-header">
     <h1>
-      <a class="name" href="../index.html">Noah Park</a>
+      <a class="name" href="../index.html">Noah</a>
     </h1>
     <nav aria-label="Main navigation">
       <a href="../index.html#project">Project</a>
@@ -349,7 +349,7 @@ body {
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>{{PROJECT_TITLE}} — Noah Park</title>
+  <title>{{PROJECT_TITLE}} — Noah</title>
   <meta name="description" content="{{PROJECT_SUMMARY_META}}">
   <link rel="stylesheet" href="../style.css">
   <script src="../theme.js"></script>
@@ -359,7 +359,7 @@ body {
   <!-- 상단 사이트 헤더 -->
   <header class="site-header">
     <h1>
-      <a class="name" href="../index.html">Noah Park</a>
+      <a class="name" href="../index.html">Noah</a>
     </h1>
 
     <nav aria-label="Main navigation">
@@ -481,7 +481,7 @@ body {
 
   <!-- 푸터 -->
   <footer class="site-footer">
-    <span>© 2026 Noah Park. Crafted with care.</span>
+    <span>© 2026 Noah. Crafted with care.</span>
     <span><a href="mailto:noah.park.dev@example.com">Contact</a></span>
   </footer>
 </body>

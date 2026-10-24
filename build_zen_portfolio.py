@@ -154,7 +154,7 @@ template = '''<!doctype html>
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>{title} — Noah Park</title>
+  <title>{title} — Noah</title>
   <meta name="description" content="{desc_first}">
   <link rel="stylesheet" href="../style.css">
   <script src="../theme.js"></script>
@@ -165,7 +165,7 @@ template = '''<!doctype html>
 <body class="article-page">
   <header class="site-header">
     <h1>
-      <a class="name" href="../index.html">Noah Park</a>
+      <a class="name" href="../index.html">Noah</a>
     </h1>
     <nav aria-label="Main navigation">
       <a href="../index.html#project">Project</a>
@@ -195,7 +195,7 @@ template = '''<!doctype html>
   </main>
 
   <footer class="site-footer">
-    <span>© 2026 Noah Park. Crafted with care.</span>
+    <span>© 2026 Noah. Crafted with care.</span>
     <span><a href="mailto:noah.park.dev@example.com">Contact</a></span>
   </footer>
 </body>

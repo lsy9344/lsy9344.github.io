@@ -1,7 +1,7 @@
 # BRIEFING — 2026-10-22T04:10:00Z
 
 ## Mission
-Noah Park 포트폴리오 웹사이트의 무결성을 검증하기 위한 Zero-Dependency 4-Tier E2E 검증 스크립트(`scripts/verify_portfolio.py`) 및 테스트 인프라 구현.
+Noah 포트폴리오 웹사이트의 무결성을 검증하기 위한 Zero-Dependency 4-Tier E2E 검증 스크립트(`scripts/verify_portfolio.py`) 및 테스트 인프라 구현.
 
 ## 🔒 My Identity
 - Archetype: Test Writer

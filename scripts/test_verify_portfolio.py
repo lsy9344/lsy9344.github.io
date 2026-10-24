@@ -2,7 +2,7 @@
 """
 scripts/test_verify_portfolio.py
 ==============================================================================
-Noah Park 포트폴리오 E2E 검증 스크립트(scripts/verify_portfolio.py)의 자체 단위 및 통합 테스트 스위트
+Noah 포트폴리오 E2E 검증 스크립트(scripts/verify_portfolio.py)의 자체 단위 및 통합 테스트 스위트
 (Zero-Dependency, Python Standard Library unittest)
 
 테스트 대상:

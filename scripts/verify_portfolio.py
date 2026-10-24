@@ -2,7 +2,7 @@
 """
 scripts/verify_portfolio.py
 ==============================================================================
-Noah Park 포트폴리오 웹사이트 E2E 4-Tier 종합 검증 스크립트
+Noah 포트폴리오 웹사이트 E2E 4-Tier 종합 검증 스크립트
 (Zero-Dependency, Pure Python Standard Library)
 
 [검증 아키텍처: 4-Tier 검증 피라미드]
@@ -1102,7 +1102,7 @@ class PortfolioVerifier:
     def run_tiers(self, tiers: List[int]) -> int:
         start_time = time.time()
         print(f"\n{TerminalColors.BOLD}{'=' * 75}{TerminalColors.RESET}")
-        print(f"{TerminalColors.BOLD}🔍 Noah Park 포트폴리오 4-Tier E2E 무결성 검증 시작{TerminalColors.RESET}")
+        print(f"{TerminalColors.BOLD}🔍 Noah 포트폴리오 4-Tier E2E 무결성 검증 시작{TerminalColors.RESET}")
         print(f"   - 대상 디렉토리: {self.ctx.root_dir}")
         print(f"   - 엄격 모드 (Strict): {'켜짐 (Warning도 실패 처리)' if self.ctx.strict else '꺼짐'}")
         print(f"   - 실행 티어: {tiers}")
@@ -1184,7 +1184,7 @@ class PortfolioVerifier:
 
 def main():
     parser = argparse.ArgumentParser(
-        description="Noah Park 포트폴리오 웹사이트 E2E 4-Tier 종합 무결성 검증 도구",
+        description="Noah 포트폴리오 웹사이트 E2E 4-Tier 종합 무결성 검증 도구",
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog="""
 [사용 예시]

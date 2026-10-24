@@ -67,7 +67,7 @@ python3 scripts/verify_portfolio.py --all --strict
 **실제 검증 결과 (Verbatim)**:
 ```text
 ===========================================================================
-🔍 Noah Park 포트폴리오 4-Tier E2E 무결성 검증 시작
+🔍 Noah 포트폴리오 4-Tier E2E 무결성 검증 시작
    - 대상 디렉토리: /Users/sooyeol/Desktop/Code/ws_noah
    - 엄격 모드 (Strict): 켜짐 (Warning도 실패 처리)
    - 실행 티어: [1, 2, 3, 4]
