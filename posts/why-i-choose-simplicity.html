@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>더 많은 라이브러리 대신 순수 웹 표준(Vanilla)을 선택한 이유 — Noah Park</title>
+  <meta name="description" content="수많은 npm 패키지의 늪에서 벗어나 브라우저 표준 API와 단순함을 지향하며 배운 것들.">
+  <link rel="stylesheet" href="../style.css">
+  <script src="../theme.js"></script>
+</head>
+
+<body class="article-page">
+  <header class="site-header">
+    <h1>
+      <a class="name" href="../index.html">Noah Park</a>
+    </h1>
+
+    <nav aria-label="Main navigation">
+      <a href="../index.html#work">Work</a>
+      <a href="../index.html#writing">Writing</a>
+      <a class="social-link" href="https://github.com" target="_blank" rel="noopener noreferrer">GitHub</a>
+      <button class="theme-toggle" type="button" data-theme-toggle aria-label="Dark mode toggle" aria-pressed="false">
+        <span data-theme-icon aria-hidden="true">☾</span>
+      </button>
+    </nav>
+  </header>
+
+  <main class="article">
+    <a href="../index.html" class="back-link">← Back to home</a>
+
+    <header class="article-header">
+      <h1>더 많은 라이브러리 대신 순수 웹 표준(Vanilla)을 선택한 이유</h1>
+      <time class="date" datetime="2026-08-15">August 15, 2026</time>
+    </header>
+
+    <p>
+      개발 공부를 처음 시작했을 때 저의 <code>package.json</code>은 언제나 수십 줄의 의존성(dependencies)으로 가득 차 있었습니다.
+      상태 관리 하나를 위해 거대한 라이브러리를 설치하고, 버튼 스타일 하나를 위해 거대한 UI 프레임워크를 가져왔습니다.
+    </p>
+
+    <p>
+      하지만 버전이 업데이트될 때마다 일어나는 호환성 충돌, 디버깅을 하려면 수백 개 파일 뒤에 숨겨진 내부 라이브러리 코드를 헤매야 하는 답답함을 겪으며 질문을 던지게 되었습니다.
+    </p>
+
+    <blockquote>
+      "과연 이 모든 라이브러리가 정말로 필요했던 걸까? 브라우저는 이미 충분히 강력하지 않은가?"
+    </blockquote>
+
+    <h2>1. 브라우저는 지난 10년 동안 엄청나게 똑똑해졌다</h2>
+    <p>
+      오늘날의 모던 웹 표준은 놀랍습니다.
+      복잡한 애니메이션 라이브러리 없이도 <code>CSS Transitions</code>와 <code>Web Animations API</code>로 부드러운 인터랙션을 만들 수 있고,
+      무거운 테마 라이브러리 없이도 <code>CSS Custom Properties(변수)</code> 몇 줄로 완벽한 다크 모드를 구현할 수 있습니다.
+    </p>
+
+    <pre><code>/* 단 3줄로 끝내는 CSS 테마 제어 */
+html[data-theme="dark"] {
+  --paper: #121213;
+  --ink: #deddd8;
+}</code></pre>
+
+    <h2>2. 블랙박스를 걷어낼 때 찾아오는 이해의 깊이</h2>
+    <p>
+      외부 라이브러리에 기대지 않고 순수 자바스크립트로 DOM을 직접 탐색하고, 이벤트를 위임(Event Delegation)하고, 브라우저 스토리지와 통신해 보는 경험은 초보 개발자에게 엄청난 지적 성장을 안겨줍니다.
+      도구가 나를 지배하는 것이 아니라, 내가 브라우저와 컴퓨터를 통제하고 있다는 확신이 생기기 때문입니다.
+    </p>
+
+    <h2>3. 덜어낼수록 빨라지는 제품</h2>
+    <p>
+      번들 크기가 줄어들면 사용자는 1초도 안 되는 찰나에 페이지를 열어볼 수 있습니다.
+      느린 네트워크 환경에서도 버벅거리지 않고, 메모리를 낭비하지 않는 것.
+      단순함은 개발자의 게으름이 아니라 사용자를 향한 최고의 배려이자 예의입니다.
+    </p>
+
+    <hr>
+    <a href="../index.html" class="back-link">← Back to home</a>
+  </main>
+
+  <footer class="site-footer">
+    <span>© 2026 Noah Park. Crafted with care.</span>
+    <span><a href="mailto:noah.park.dev@example.com">Contact</a></span>
+  </footer>
+</body>
+</html>

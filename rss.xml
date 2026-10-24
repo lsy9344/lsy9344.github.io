@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Noah Park</title>
+    <link>http://localhost:3000/</link>
+    <description>Writing and engineering notes by Noah Park</description>
+    <language>ko</language>
+    <atom:link href="http://localhost:3000/rss.xml" rel="self" type="application/rss+xml"/>
+
+    <item>
+      <title>왜 초보 개발자에게 소프트웨어의 디테일과 장인정신이 중요할까?</title>
+      <link>http://localhost:3000/posts/why-craftsmanship-matters.html</link>
+      <guid isPermaLink="true">http://localhost:3000/posts/why-craftsmanship-matters.html</guid>
+      <pubDate>Wed, 21 Oct 2026 08:24:00 GMT</pubDate>
+      <description>코드를 단순히 작동하게 만드는 것을 넘어, 읽기 쉽고 단단한 소프트웨어를 만드는 가치에 대해 이야기합니다.</description>
+      <content:encoded><![CDATA[<p>개발을 처음 배우기 시작할 때는 주로 "어떻게 해야 에러 없이 화면에 결과를 띄울 수 있을까?"에 모든 신경이 집중됩니다. 하지만 Karri Saarinen의 사이트나 아름답게 다듬어진 소프트웨어를 보고 있으면, 단순한 기능 구현 이상의 무언가가 느껴집니다. 그것은 바로 디테일에 대한 존중과 장인정신(Craftsmanship)입니다.</p>]]></content:encoded>
+    </item>
+
+    <item>
+      <title>더 많은 라이브러리 대신 순수 웹 표준(Vanilla)을 선택한 이유</title>
+      <link>http://localhost:3000/posts/why-i-choose-simplicity.html</link>
+      <guid isPermaLink="true">http://localhost:3000/posts/why-i-choose-simplicity.html</guid>
+      <pubDate>Sat, 15 Aug 2026 09:00:00 GMT</pubDate>
+      <description>수많은 npm 패키지의 늪에서 벗어나 브라우저 표준 API와 단순함을 지향하며 배운 것들.</description>
+      <content:encoded><![CDATA[<p>외부 라이브러리에 기대지 않고 순수 자바스크립트로 DOM을 직접 탐색하고, 이벤트를 위임하고, 브라우저 스토리지와 통신해 보는 경험은 초보 개발자에게 엄청난 지적 성장을 안겨줍니다.</p>]]></content:encoded>
+    </item>
+
+    <item>
+      <title>의존성 없이 만드는 초경량 브라우저 텍스트 에디터 개발기</title>
+      <link>http://localhost:3000/posts/building-a-lightweight-markdown-editor.html</link>
+      <guid isPermaLink="true">http://localhost:3000/posts/building-a-lightweight-markdown-editor.html</guid>
+      <pubDate>Tue, 12 May 2026 14:30:00 GMT</pubDate>
+      <description>contenteditable과 정규식 파서로 가볍고 빠른 미니멀 텍스트 에디터를 직접 만들어보며 배운 DOM의 작동 원리.</description>
+      <content:encoded><![CDATA[<p>브라우저에서 텍스트 입력을 커스텀하게 다루는 것은 생각보다 까다로웠습니다. div[contenteditable="true"]를 사용하면 풍부한 텍스트 편집이 가능하지만, 브라우저 엔진마다 캐럿(커서)의 위치를 다루는 방식이 미묘하게 달랐습니다.</p>]]></content:encoded>
+    </item>
+  </channel>
+</rss>

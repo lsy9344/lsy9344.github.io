@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>의존성 없이 만드는 초경량 브라우저 텍스트 에디터 개발기 — Noah Park</title>
+  <meta name="description" content="contenteditable과 정규식 파서로 가볍고 빠른 미니멀 텍스트 에디터를 직접 만들어보며 배운 DOM의 작동 원리.">
+  <link rel="stylesheet" href="../style.css">
+  <script src="../theme.js"></script>
+</head>
+
+<body class="article-page">
+  <header class="site-header">
+    <h1>
+      <a class="name" href="../index.html">Noah Park</a>
+    </h1>
+
+    <nav aria-label="Main navigation">
+      <a href="../index.html#work">Work</a>
+      <a href="../index.html#writing">Writing</a>
+      <a class="social-link" href="https://github.com" target="_blank" rel="noopener noreferrer">GitHub</a>
+      <button class="theme-toggle" type="button" data-theme-toggle aria-label="Dark mode toggle" aria-pressed="false">
+        <span data-theme-icon aria-hidden="true">☾</span>
+      </button>
+    </nav>
+  </header>
+
+  <main class="article">
+    <a href="../index.html" class="back-link">← Back to home</a>
+
+    <header class="article-header">
+      <h1>의존성 없이 만드는 초경량 브라우저 텍스트 에디터 개발기</h1>
+      <time class="date" datetime="2026-05-12">May 12, 2026</time>
+    </header>
+
+    <p>
+      글을 쓰는 순간만큼은 어떤 방해도 받고 싶지 않았습니다.
+      수많은 툴바, 복잡한 플러그인, 느린 로딩을 가진 상용 에디터 대신 <strong>"오직 텍스트와 생각에만 집중할 수 있는 에디터"</strong>를 직접 만들어보기로 결심했습니다.
+    </p>
+
+    <blockquote>
+      "Every project produces product and understanding."<br>
+      (모든 프로젝트는 제품뿐만 아니라 더 깊은 이해를 낳는다.)
+    </blockquote>
+
+    <h2>1. contenteditable과 Selection API 마주하기</h2>
+    <p>
+      브라우저에서 텍스트 입력을 커스텀하게 다루는 것은 생각보다 까다로웠습니다.
+      <code>div[contenteditable="true"]</code>를 사용하면 풍부한 텍스트 편집이 가능하지만, 브라우저 엔진마다 캐럿(커서)의 위치를 다루는 방식이 미묘하게 달랐습니다.
+      이 과정에서 <code>window.getSelection()</code>과 <code>Range</code> 객체의 내부 구조를 샅샅이 파헤치게 되었습니다.
+    </p>
+
+    <pre><code>// 커서 위치를 정확하게 복원하는 작은 테크닉
+const saveSelection = () => {
+  const sel = window.getSelection();
+  return sel.rangeCount > 0 ? sel.getRangeAt(0) : null;
+};</code></pre>
+
+    <h2>2. IndexedDB로 브라우저 로컬 자동 저장</h2>
+    <p>
+      네트워크 연결이 끊겨도 글이 유실되지 않도록 <code>IndexedDB</code>를 활용하여 500ms 디바운스(Debounce) 주기로 자동 저장을 구현했습니다.
+      서버와의 통신 없이도 클라이언트 자체에서 완결된 안전한 저장소를 구축하는 방법을 배웠습니다.
+    </p>
+
+    <h2>3. 프로젝트가 남긴 교훈</h2>
+    <p>
+      거대한 프레임워크 뒤에 감춰져 있던 브라우저의 날것(Raw) API들을 직접 다루어본 것은 개발자로서의 시야를 완전히 바꿔놓았습니다.
+      버그가 발생했을 때 두려워하지 않고 브라우저 스펙 문서를 읽어보는 단단한 태도를 얻게 되었습니다.
+    </p>
+
+    <hr>
+    <a href="../index.html" class="back-link">← Back to home</a>
+  </main>
+
+  <footer class="site-footer">
+    <span>© 2026 Noah Park. Crafted with care.</span>
+    <span><a href="mailto:noah.park.dev@example.com">Contact</a></span>
+  </footer>
+</body>
+</html>

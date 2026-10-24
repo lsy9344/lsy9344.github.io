@@ -1,0 +1,231 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Noah Park — Software Engineer</title>
+  <meta name="description" content="Software engineer passionate about simple, high-quality craft, robust domain modeling, and data integrity.">
+  <meta name="author" content="Noah Park">
+
+  <!-- Open Graph -->
+  <meta property="og:site_name" content="Noah Park">
+  <meta property="og:title" content="Noah Park — Software Engineer">
+  <meta property="og:type" content="website">
+  <meta property="og:description" content="단순함과 깊은 사용성을 탐구하는 소프트웨어 엔지니어 노아(Noah)의 소개 및 포트폴리오입니다.">
+
+  <!-- 스타일시트 & 폰트 -->
+  <link rel="stylesheet" href="./style.css">
+
+  <!-- 테마 초기화 인라인 스크립트 -->
+  <script src="./theme.js"></script>
+  <!-- 스텔스 인라인 편집기 (히든) -->
+  <script src="./admin.js" defer></script>
+</head>
+
+<body class="home-page">
+  <!-- 1. 사이트 헤더 -->
+  <header class="site-header">
+    <h1>
+      <a class="name" href="./index.html">Noah Park</a>
+    </h1>
+
+    <nav aria-label="Main navigation">
+      <a href="#project">Project</a>
+      <a href="#writing">Writing</a>
+      <a href="/rss.xml">RSS</a>
+      <a class="social-link" href="https://github.com" target="_blank" rel="noopener noreferrer" aria-label="GitHub">GitHub</a>
+      <!-- 다크/라이트 모드 테마 토글 버튼 -->
+      <button class="theme-toggle" type="button" data-theme-toggle aria-label="Dark mode toggle" aria-pressed="false">
+        <span data-theme-icon aria-hidden="true">☾</span>
+      </button>
+    </nav>
+  </header>
+
+  <!-- 2. 메인 콘텐츠 -->
+  <main class="home">
+    <div data-content-body>
+      <h2>About me</h2>
+      <p>
+        문제를 가장 단순하고 명쾌한 코드로 해결하는 것에 집중하는 소프트웨어 엔지니어 지망생 <strong>Noah</strong>입니다.
+        화려한 겉모습보다 사용자의 주의를 방해하지 않는 단단한 완성도와 고유한 도메인 모델링을 중요하게 생각합니다.
+        현재 웹 생태계와 AI 보조 개발 도구의 결합을 탐구하고 있습니다.
+      </p>
+
+      <h2>Notes on building</h2>
+      <ul>
+        <li>좋은 제품은 무엇을 빼느냐에 따라 달라집니다.</li>
+        <li>도구는 일을 하는 사람들에게 도움이 되어야 합니다.</li>
+        <li>업무를 위임한다고 해서 책임이 이전되는 것은 아닙니다.</li>
+        <li>회사도 당신이 만들어가는 것입니다.</li>
+        <li>수익성은 원하는 방식으로 사업을 확장할 수 있는 자유를 줍니다.</li>
+        <li>브랜드는 당신이 누구이며 무엇을 지지하는지를 나타냅니다.</li>
+        <li>방향이 없는 속도는 움직임일 뿐, 발전이 아닙니다.</li>
+      </ul>
+    </div>
+
+    <!-- =====================================================================
+         3. Project 섹션 (Arlan.me 원칙 준수: 2열 포커스 딤 + 로컬 케이스 스터디 링크)
+         ===================================================================== -->
+    <section class="home-projects" id="project" aria-labelledby="project-title">
+      <div class="section-heading">
+        <h2 id="project-title">Project</h2>
+      </div>
+
+      <!-- [도메인 1] Commerce & SaaS -->
+      <h3>Commerce & SaaS</h3>
+      <ul class="project-list">
+        <li>
+          <a href="./projects/beauty-brand-crm.html" class="project-link">
+            <span class="project-title">뷰티 브랜드 고객 관리·캠페인 준비 CRM</span>
+            <span class="project-year">2026</span>
+          </a>
+        </li>
+        <li>
+          <a href="./projects/beauty-review-platform.html" class="project-link">
+            <span class="project-title">뷰티 브랜드 다국어 상품 후기 플랫폼</span>
+            <span class="project-year">2026</span>
+          </a>
+        </li>
+        <li>
+          <a href="./projects/beauty-band-automation.html" class="project-link">
+            <span class="project-title">뷰티 브랜드 BAND 콘텐츠 운영 자동화</span>
+            <span class="project-year">2026</span>
+          </a>
+        </li>
+        <li>
+          <a href="./projects/beauty-erp-inventory.html" class="project-link">
+            <span class="project-title">뷰티 브랜드 사내 ERP·재고·매출 관리</span>
+            <span class="project-year">2026</span>
+          </a>
+        </li>
+      </ul>
+
+      <!-- [도메인 2] Media & Photo Booth -->
+      <h3>Media & Photo Booth</h3>
+      <ul class="project-list">
+        <li>
+          <a href="./projects/boothy-photo-booth.html" class="project-link">
+            <span class="project-title">Boothy · 무인 사진관 촬영·프리셋·운영 제어</span>
+            <span class="project-year">2026</span>
+          </a>
+        </li>
+        <li>
+          <a href="./projects/multi-branch-studio-erp.html" class="project-link">
+            <span class="project-title">다지점 사진관 운영·급여·주차·보정 ERP</span>
+            <span class="project-year">2026</span>
+          </a>
+        </li>
+        <li>
+          <a href="./projects/sms-automation-review.html" class="project-link">
+            <span class="project-title">다지점 예약 안내·리뷰 요청 문자 자동화</span>
+            <span class="project-year">2026</span>
+          </a>
+        </li>
+        <li>
+          <a href="./projects/cuteditor-photo-tool.html" class="project-link">
+            <span class="project-title">CutEditor 브라우저 사진 편집·PNG 저장 도구</span>
+            <span class="project-year">2026</span>
+          </a>
+        </li>
+      </ul>
+
+      <!-- [도메인 3] Specialized Industry ERP -->
+      <h3>Specialized Industry ERP</h3>
+      <ul class="project-list">
+        <li>
+          <a href="./projects/vietnam-aesthetic-erp.html" class="project-link">
+            <span class="project-title">베트남 에스테틱 접수·객실·정산 ERP</span>
+            <span class="project-year">2026</span>
+          </a>
+        </li>
+        <li>
+          <a href="./projects/seafood-distribution-erp.html" class="project-link">
+            <span class="project-title">수산물 유통 본사·지점 통합 ERP</span>
+            <span class="project-year">2026</span>
+          </a>
+        </li>
+        <li>
+          <a href="./projects/military-meal-management.html" class="project-link">
+            <span class="project-title">군부대 식사 신청·식권·급여 공제 관리</span>
+            <span class="project-year">2026</span>
+          </a>
+        </li>
+      </ul>
+
+      <!-- [도메인 4] Automation & Tools -->
+      <h3>Automation & Tools</h3>
+      <ul class="project-list">
+        <li>
+          <a href="./projects/multimarket-crawler.html" class="project-link">
+            <span class="project-title">멀티마켓 상품·판매자 공개정보 수집기</span>
+            <span class="project-year">2026</span>
+          </a>
+        </li>
+        <li>
+          <a href="./projects/kakaotalk-unread-excel.html" class="project-link">
+            <span class="project-title">카카오톡 미열람 1:1 대화방 엑셀 정리 도구</span>
+            <span class="project-year">2026</span>
+          </a>
+        </li>
+        <li>
+          <a href="./projects/tactrun-delivery-landing.html" class="project-link">
+            <span class="project-title">배달센터 실적 자동화 서비스 소개 웹 (TactRun)</span>
+            <span class="project-year">2026</span>
+          </a>
+        </li>
+      </ul>
+    </section>
+
+    <!-- =====================================================================
+         4. Writing 섹션 (Karri Saarinen 2열 아카이브 그리드)
+         ===================================================================== -->
+    <section class="home-writing" id="writing" aria-labelledby="writing-title">
+      <div class="section-heading">
+        <h2 id="writing-title">Writing</h2>
+      </div>
+
+      <section class="archive-year" aria-labelledby="year-2026">
+        <h3 id="year-2026">2026</h3>
+        <ul>
+          <li>
+            <a href="./posts/why-craftsmanship-matters.html">왜 초보 개발자에게 소프트웨어의 디테일과 장인정신이 중요할까?</a>
+            <time datetime="2026-10-21">October 21</time>
+          </li>
+          <li>
+            <a href="./posts/why-i-choose-simplicity.html">더 많은 라이브러리 대신 순수 웹 표준(Vanilla)을 선택한 이유</a>
+            <time datetime="2026-08-15">August 15</time>
+          </li>
+          <li>
+            <a href="./posts/building-a-lightweight-markdown-editor.html">의존성 없이 만드는 초경량 브라우저 텍스트 에디터 개발기</a>
+            <time datetime="2026-05-12">May 12</time>
+          </li>
+        </ul>
+      </section>
+
+      <section class="archive-year" aria-labelledby="year-2025">
+        <h3 id="year-2025">2025</h3>
+        <ul>
+          <li>
+            <a href="./posts/why-craftsmanship-matters.html">원장(Fact)과 예상값(Prediction)을 분리하는 데이터 모델링의 힘</a>
+            <time datetime="2025-11-28">November 28</time>
+          </li>
+          <li>
+            <a href="./posts/why-craftsmanship-matters.html">CSS 커스텀 프로퍼티로 구현하는 부드러운 다크/라이트 테마 시스템</a>
+            <time datetime="2025-07-19">July 19</time>
+          </li>
+        </ul>
+      </section>
+    </section>
+  </main>
+
+  <!-- 5. 사이트 푸터 -->
+  <footer class="site-footer">
+    <span>© 2026 Noah Park. Crafted with care.</span>
+    <span>
+      <a href="mailto:noah.park.dev@example.com">Email</a> &middot;
+      <a href="https://github.com" target="_blank" rel="noopener noreferrer">GitHub</a> &middot;
+      <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+    </span>
+  </footer>
+</body>
+</html>
