@@ -111,7 +111,7 @@ projects_data = [
     },
     {
         'file': 'projects/military-meal-management.html',
-        'title': '군 식수 인원 관리 시스템',
+        'title': '식사 신청·식권·급여 공제 관리 웹',
         'meta': 'REALTIME HEADCOUNT · QR VERIFICATION · 1 ENGINEER',
         'shots': [
             {'src': '../images/military-meal-management/sources/user-direct-capture.png', 'alt': '장병 모바일 식수 신청 화면', 'desc': '장병이 오늘 먹을 끼니를 직접 신청합니다.'},
